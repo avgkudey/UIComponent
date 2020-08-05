@@ -15,10 +15,12 @@ public class LiquidSwitch extends LinearLayout {
 
     public LiquidSwitch(Context context) {
         super(context);
+        init();
     }
 
     public LiquidSwitch(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
+        init();
     }
 
 
