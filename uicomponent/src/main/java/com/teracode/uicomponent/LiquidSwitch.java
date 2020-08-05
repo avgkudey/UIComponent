@@ -23,6 +23,7 @@ public class LiquidSwitch extends LinearLayout {
 
 
     private void init() {
+        setOrientation(VERTICAL);
         LayoutInflater.from(getContext()).inflate(R.layout.liquid_switch, this);
         liquid_switch = findViewById(R.id.liquid_switch);
     }
